@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    list-style: none;
+    padding:none;
+    border:none;
+    margin:none;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    color:white;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:50vw;
+    border-radius: 10px;
+    max-width:600px;
+    min-width:400px;
+
+
+}
+img{
+    width:12vw;
+    border-radius: 50%;
+    margin:50px 0 10px 0;
+    min-width:100px;
+    max-width:150px;
+
+}
+h2,h4,p{
+    margin:0;
+}
+h4{
+    color: hsl(75, 94%, 57%);
+
+}
+
+h2 {
+    margin-top:20px;
+    margin-bottom:10px;
+}
+p{
+    margin-top:40px;
+}
+.upper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.down{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:80%;
+    margin:40px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding:20px;
+    margin:8px 0;
+    width:95%;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    transition: .5s;
+    color:white;
+}
+button:hover{
+    color:black;
+    background-color:hsl(75, 94%, 57%);
+    ;
+}
+ul{
+    margin:0px;
+    padding:0px;
+    width:100%;
+
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/*.upper{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    margin:0;
+
+}
+img{
+    border-radius: 50%;
+    width:30%;
+    height:auto;
+
+}
+a {
+    color:white;
+    text-decoration: none;
+
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+li{
+    margin:10px 0;
+}
+button{
+    width:80%;
+    margin:10px 0;
+    color:white;
+    background-color:hsl(0, 0%, 20%);
+    padding:20px;
+    font-size: 1rem;
+
+
+}
